@@ -143,7 +143,6 @@ flex-wrap: wrap;
   text-align: left; /* أفضل للقراءة على الشاشات الكبيرة */
   line-height: 1.6;
   color: rgb(94, 69, 1);
-  word-wrap: break-word; /* يكسر الكلمات الطويلة */
   max-width: 600px; /* يمنع النص من الامتداد الكبير */
 }
 @media (max-width: 1023px) {
@@ -424,4 +423,5 @@ padding: 0.3rem;
 
 
 }
+
 
