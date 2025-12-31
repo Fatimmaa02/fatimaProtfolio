@@ -139,7 +139,7 @@ justify-content: flex-start;
 flex-wrap: wrap;
 }
 
-aboutMePer {
+.aboutMePer {
   text-align: left; /* أفضل للقراءة على الشاشات الكبيرة */
   line-height: 1.8;
   color: rgb(94, 69, 1);
@@ -171,6 +171,8 @@ aboutMePer {
 
 
 }
+
+
 .textContainer{
    display: flex; 
    flex-direction: column;
@@ -434,8 +436,3 @@ padding: 0.3rem;
 
 
 }
-
-
-
-
-
