@@ -140,10 +140,14 @@ flex-wrap: wrap;
 }
 
 .aboutMePer {
-  text-align: left; /* أفضل للقراءة على الشاشات الكبيرة */
-  line-height: 1.6;
+  text-align: left;
+  line-height: 1.8;
   color: rgb(94, 69, 1);
   max-width: 600px; /* يمنع النص من الامتداد الكبير */
+  font-size: 1.1rem;
+  font-weight: 400;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 @media (max-width: 1023px) {
   .aboutMe {
@@ -153,12 +157,15 @@ flex-wrap: wrap;
     margin: 3rem 1rem;
   }
 
-  .aboutMePer { 
-    text-align: left;
+  .aboutMePer {
+    text-align: left; 
     max-width: 90%; /* لا يتجاوز حجم الشاشة */
+    font-size: 1rem;
+    line-height: 1.9;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 }
-
 
 .textContainer{
    display: flex; 
@@ -423,5 +430,6 @@ padding: 0.3rem;
 
 
 }
+
 
 
