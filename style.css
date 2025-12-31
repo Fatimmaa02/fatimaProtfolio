@@ -139,16 +139,13 @@ justify-content: flex-start;
 flex-wrap: wrap;
 }
 
-.aboutMePer {
+aboutMePer {
   text-align: left; /* أفضل للقراءة على الشاشات الكبيرة */
   line-height: 1.8;
   color: rgb(94, 69, 1);
-  max-width: 100%; 
-  width: 100%;
-  font-size: 1.1rem;
-  white-space: normal;
-  word-break: normal;
-  overflow-wrap: normal;
+  max-width: 600px;
+  width: auto;
+
 }
 @media (max-width: 1023px) {
   .aboutMe {
@@ -157,20 +154,23 @@ flex-wrap: wrap;
     gap: 2rem;
     margin: 3rem 1rem;
   }
+  .textContainer{
+   width: 100%;
+   margin: 0 1rem;
+   align-items: flex-start;
+}
 
   .aboutMePer {
-    text-align: left; /* يظل النص في المنتصف على الجوال */
-    max-width: 90%; /* لا يتجاوز حجم الشاشة */
+    width: 100%;
+    max-width: 100%; /* لا يتجاوز حجم الشاشة */
     font-size: 1rem;
     line-height: 1.9;
-    word-break: normal;
-    overflow-wrap: break-word;
+    
   }
 
 
+
 }
-
-
 .textContainer{
    display: flex; 
    flex-direction: column;
@@ -434,6 +434,7 @@ padding: 0.3rem;
 
 
 }
+
 
 
 
