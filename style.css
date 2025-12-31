@@ -154,8 +154,8 @@ flex-wrap: wrap;
     margin: 3rem 1rem;
   }
 
-  .aboutMePer {
-    text-align: center; /* يظل النص في المنتصف على الجوال */
+  .aboutMePer { 
+    text-align: left;
     max-width: 90%; /* لا يتجاوز حجم الشاشة */
   }
 }
@@ -424,3 +424,4 @@ padding: 0.3rem;
 
 
 }
+
