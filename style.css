@@ -374,64 +374,79 @@ padding: 0.3rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .hero {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
   }
-  .heroImg {
-    width: 400px;
+
+  .aboutMeImg, .heroImg {
+    width: 80%;
+    max-width: 300px;
   }
+
   .name,
   .title {
     font-size: 2rem;
+    text-align: center;
   }
+
   .arrow {
     display: none;
   }
+
   .aboutMe {
     flex-direction: column-reverse;
     align-items: center;
     gap: 2rem;
   }
+
   .textContainer {
+    width: 90%;
+    margin: 0 auto;
     align-items: center;
-    margin: 0rem 5rem;
     gap: 1rem;
   }
+
   .aboutName,
   .aboutTitle {
     font-size: 2rem;
   }
+
   .light {
     width: 60px;
   }
-  .aboutMeImg {
-    width: 400px;
-  }
+
   .works {
     padding: 0;
   }
+
   .worksContainer {
     padding: 5rem 0rem;
     gap: 3rem;
   }
+
   .projectTitle {
     margin-left: 1rem;
   }
+
   .works ul {
     flex-direction: column;
     gap: 1rem;
   }
+
   .ContactContainer {
-    margin: 10rem 5rem;
-    gap: 2rem;
+    width: 90%;
+    margin: 5rem auto;
+    gap: 1.5rem;
   }
+
   .Contact {
     flex-direction: column;
     gap: 1rem;
     margin-right: 0;
   }
-
-
 }
+
+
